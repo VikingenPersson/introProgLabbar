@@ -4,10 +4,11 @@ void LoopIN();
 void charAndStringIN();
 void vectorIN();
 void structIN();
+void Tenta20241210IN();
 
 using namespace std;
 
 int main() {
-    structIN();
+    Tenta20241210IN();
     return 0;
 }
