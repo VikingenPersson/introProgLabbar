@@ -8,4 +8,5 @@ SOURCES += \
         kap13charOchString.cpp \
         kap14vektorer.cpp \
         kap15struct.cpp \
+        kap21pekare.cpp \
         main.cpp

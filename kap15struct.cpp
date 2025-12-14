@@ -39,7 +39,6 @@ Vaxel3 vaxel3FranBelop(int belopp){
     i.m_antal10 = floor((belopp - i.m_antal500 * 500 - i.m_antal200 * 200 - i.m_antal100 * 100 - i.m_antal20 * 20) / 10);
     i.m_antal5 = floor((belopp - i.m_antal500 * 500 - i.m_antal200 * 200 - i.m_antal100 * 100 - i.m_antal20 * 20 - i.m_antal10 * 10) / 5);
     i.m_antal1 = floor(belopp - i.m_antal500 * 500 - i.m_antal200 * 200 - i.m_antal100 * 100 - i.m_antal20 * 20 - i.m_antal10 * 10 - i.m_antal5 * 5);
-
     return i;
 }
 
