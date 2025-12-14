@@ -4,6 +4,7 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        2024_12_10tentaUppgifter.cpp \
         kap12Loopar.cpp \
         kap13charOchString.cpp \
         kap14vektorer.cpp \
