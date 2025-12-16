@@ -8,6 +8,17 @@
 
 using namespace std;
 
+struct Datum{
+    int m_ar;
+    int m_manad;
+    int m_dag;
+};
+
+struct Person{
+    string m_namn;
+    Datum m_fodelsedatum;
+};
+
 string taggstrang1(int numberOfhash){
     string hash = "";
     for(int i = 0; i < numberOfhash; ++i){
@@ -35,9 +46,17 @@ int antalInomIntervall(const vector<int>& vek, int a, int b){
     return count;
 }
 
-
+vector<Person> tomtenissar(vector<Person> v){
+    vector<Person> tomtenissar{};
+    for(size_t i = 0; i < v.size(); ++i){
+        if(v[i].m_fodelsedatum.m_dag == 24 && v[i].m_fodelsedatum.m_manad == 12){
+            tomtenissar.push_back(v[i]);
+        }
+    }
+    return tomtenissar;
+}
 
 void Tenta20241210IN(){
-    vector<int> v = {1,2,3,4,5,6};
-    cout << antalInomIntervall(v,1,6);
+    char a = 0;
+    cout << a;
 }
